@@ -1,17 +1,62 @@
-# aplikasi_olahragasiswa
+# Aplikasi Olahraga Siswa
 
-A new Flutter project.
+Aplikasi mobile untuk Tes Kemampuan Siswa (TKS) dan kegiatan olahraga
+siswa Sekolah Dasar, dibangun dengan Flutter.
 
-## Getting Started
+## Deskripsi
 
-This project is a starting point for a Flutter application.
+Aplikasi ini membantu sekolah dalam melaksanakan dan mencatat Tes Kemampuan
+Siswa (TKS) serta kegiatan olahraga siswa SD. [Jelaskan singkat siapa
+penggunanya: siswa / guru / admin sekolah.]
 
-A few resources to get you started if this is your first Flutter project:
+## Fitur Utama
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Login pengguna ([siswa])
+- Tes Kemampuan Siswa (TKS)
+- Pencatatan dan penilaian hasil tes olahraga
+- Riwayat dan rekap hasil siswa
+- [jenis olahraga]
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Teknologi yang Digunakan
+
+- Flutter & Dart
+- [Backend: Laravel / Firebase / dll.]
+- [Database: MySQL ]
+
+## Cara Menjalankan Project
+
+1. Clone repository
+   ```bash
+   git clone https://github.com/Firdo206/aplikasi_olahragasiswa.git
+   cd aplikasi_olahragasiswa
+   ```
+2. Install dependency
+   ```bash
+   flutter pub get
+   ```
+3. [Atur URL API / konfigurasi di file `lib/config/...`]
+4. Jalankan aplikasi
+   ```bash
+   flutter run
+   ```
+
+## Build APK
+
+```bash
+flutter build apk --release
+```
+
+## Struktur Folder
+
+```
+lib/
+├── models/      # model data
+├── screens/     # halaman aplikasi
+├── services/    # komunikasi dengan API
+└── widgets/     # komponen UI
+```
+
+## Pengembang
+
+- Firdo ([@Firdo206](https://github.com/Firdo206))
+- Klien: [SD Pandansari 02 / Iqbal Atma]
